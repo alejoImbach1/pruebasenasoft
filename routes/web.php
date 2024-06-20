@@ -13,7 +13,7 @@ Route::get('/all', function () {
 });
 
 Route::get('/', function () {
-    return view('/login');
+    return to_route('/login');
 });
 
 Route::middleware([
